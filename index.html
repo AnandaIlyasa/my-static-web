@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ilyas's Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/71ff6faa08.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top"
+        style="width:400px;font-weight:bold;border-right: 1px solid;" id="mySidebar"><br>
+        <h3 class="w3-padding-12 w3-center"><b>Hi I'm Ilyas</b></h3>
+        <p style="text-align: justify; padding: 1rem">I am a Bangkit Distinction Graduate 2022 with software development experience where I was recognized as the Most-Goal Oriented. These awards reflect my ability to learn fast, attention to detail, and enjoy collaborating with others to achieve common goals. Beyond that, I love coding and problem solving very much.</p>
+        <div id="contacts">
+            <a href="https://wa.me/+6287863238629" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp fa-xl"></i>
+            </a>
+            <a href="mailto:aip.ilyasa@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-regular fa-envelope fa-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ananda-ilyasa" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+            </a>
+            <a href="https://github.com/AnandaIlyasa" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github fa-xl"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding">Hi I'm Ilyas</span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:400px; padding: 1rem;">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+        <h3><b>My Portfolio</b></h3>
+
+        <!-- Photo grid -->
+        <div id="portfolio-grid">
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle" href="https://github.com/AnandaIlyasa/gg-final-project" target="_blank" rel="noopener noreferrer">
+                        <img src="img\tokped-play.jpg">
+                        <div class="portfolio-text">
+                            <h5>Tokopedia Play Clone (MERN Stack)</h5>
+                            <p class="w3-text-black">
+                                Tokopedia play clone web app to practice MERN stack. The live version can be accessed through the link below <a href="https://gg-final-project-mu.vercel.app/" target="_blank" rel="noopener noreferrer"><b>LINK</b></a>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle" href="https://github.com/AnandaIlyasa/gg-spotify-clone" target="_blank" rel="noopener noreferrer">
+                        <img src="img\spotify.jpg">
+                        <div class="portfolio-text">
+                            <h5>Spotify-like Webapp</h5>
+                            <p class="w3-text-black">
+                                Spotify-like web app that utilize Spotify Web API and connect user's spotify account. It displays user's playlists and tracks.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle" href="https://www.bahanbaku.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="img\bahanbaku-logo.jpeg">
+                        <div class="portfolio-text">
+                            <h5>Bangkit Academy Capstone Project - Bahanbaku</h5>
+                            <p class="w3-text-black">
+                                My team BahanbaKu awarded as top 15 capstone project at Bangkit program and received 10K USD. In this project I created Machine Learning models to classify food images and to classify voice instructions using TensorFlow.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle" href="https://github.com/AnandaIlyasa/arithmetic-tm-simulator" target="_blank" rel="noopener noreferrer">
+                        <img src="img\turing.jpg">
+                        <div class="portfolio-text">
+                            <h5>Turing Machine Simulator</h5>
+                            <p class="w3-text-black">
+                                Terminal-based Turing Machine Simulator program that can compute some arithmetic operations including addition, subtraction, division, factorial, logarithm, modulo, multiplication, and power operation.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle">
+                        <img src="img\UNS-logo.png">
+                        <div class="portfolio-text">
+                            <h5>ERP System for School</h5>
+                            <p class="w3-text-black">
+                                During my first internship I was working on a web-based ERP for school project at my university. In this project I contributed in many development phases including Requirement Analysis, Design, Development, and Testing. In the end, I was awarded The Most Goal-Oriented on this project. It was such a valuable experience.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio-item">
+                    <a class="nostyle" href="https://github.com/AnandaIlyasa/aircraft-game-final-project.git" target="_blank" rel="noopener noreferrer">
+                        <img src="img\aircraft-game.png">
+                        <div class="portfolio-text">
+                            <h5>Simple Aircraft Game</h5>
+                            <p class="w3-text-black">
+                                This is my memorable very first programming project. In this project I created a simple aircraft game using C programming language and Raylib.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
